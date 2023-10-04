@@ -1,5 +1,6 @@
 // import BgChanger from "./components/bg changer project/BgChanger";
 
+import Example1 from "./components/use effect hook/example 1/Example1";
 import Practice from "./components/use effect hook/practice";
 
 function App() {
@@ -18,7 +19,9 @@ function App() {
         <BgChanger color="Blue" textColor="white" />
         <BgChanger color="FireBrick" textColor="white" />
       </div> */}
-      <Practice />
+      {/* ========practce========== */}
+      {/* <Practice /> */}
+      <Example1 />
     </>
   );
 }
