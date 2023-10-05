@@ -6,7 +6,7 @@ function Example1() {
     const interval = setInterval(() => {
       console.log("Interval says hello");
     }, 1000);
-    return () => clearInterval(interval);
+    return () => clearInterval(interval); //cleanup!
   });
   return (
     <>
